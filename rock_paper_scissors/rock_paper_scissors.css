@@ -1,0 +1,115 @@
+/* Стили для игры "Камень, Ножницы, Бумага" */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.game {
+    margin-bottom: 20px;
+}
+
+.result {
+    font-size: 18px;
+}
+
+/* Стили для кнопки "Играть" */
+#play-btn {
+    padding: 10px 20px;
+    background-color: #008000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Добавим немного отступа снизу */
+}
+
+#play-btn:hover {
+    background-color: #006400;
+}
+
+/* Стили для сообщения о начале игры */
+#game-start-message {
+    font-size: 18px;
+    font-weight: bold;
+    color: blue;
+}
+
+/* Стили для сообщения о результате */
+#result-text {
+    font-weight: bold;
+    color: red; /* Цвет текста для сообщения о результате */
+}
+
+/* Стили для ходов игроков */
+#own-move,
+#opponent-move {
+    font-weight: bold;
+    color: blue;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* Белый цвет */
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008000; /* Зеленый цвет */
+    color: #fff; /* Белый цвет */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+nav a:hover {
+    background-color: #006400; /* Темно-зеленый цвет при наведении */
+}
+.user-info {
+    margin-right: 20px;
+}
+
+#username {
+    font-weight: bold;
+}
+
+#coin-count {
+    margin-left: 10px;
+}
+
+/* Добавим стили для выбора ставки */
+.bet-options {
+    margin-bottom: 20px;
+}
+
+.bet-options label {
+    margin-right: 15px;
+}
+
+.bet-options input[type="radio"] {
+    margin-right: 5px;
+}
+
+#play-again-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#play-again-btn:hover {
+    background-color: #0056b3;
+}

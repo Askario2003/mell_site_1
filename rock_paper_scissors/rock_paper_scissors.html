@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Камень, Ножницы, Бумага</title>
+    <link rel="stylesheet" href="rock_paper_scissors.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">Игровой сайт</div>
+            <nav>
+                <a href="/index.html">Главная</a>
+                <a href="/public/games/games_page.html">Игры</a>
+                <a href="#">Рейтинг</a>
+                <a href="#">Вход</a>
+            </nav>
+            <div class="user-info">
+                <span id="username">Имя пользователя</span>
+                <span id="coin-count">0 монет</span>
+            </div>
+        </header>
+        <h1>Игра "Камень, Ножницы, Бумага"</h1>
+        <div id="waiting-message"></div>
+        <div id="game-started-message"></div>
+        <div class="bet-options">
+            <label>
+                <input type="radio" name="bet" value="5"> 5 монет
+            </label>
+            <label>
+                <input type="radio" name="bet" value="10"> 10 монет
+            </label>
+            <label>
+                <input type="radio" name="bet" value="15"> 15 монет
+            </label>
+        </div>
+        <button id="play-btn" onclick="play()">Играть</button>
+        <!-- Добавляем элемент для отображения сообщения о начале игры -->
+        <div class="game">
+            <button id="rock-btn">Камень</button>
+            <button id="scissors-btn">Ножницы</button>
+            <button id="paper-btn">Бумага</button>
+        </div>
+        <div class="result">
+            <h2>Ходы игроков:</h2>
+            <p id="own-move"></p>
+            <p id="opponent-move"></p>
+            <h3>Результат:</h3>
+            <p id="result-text"></p>
+        </div>        
+        <button id="play-again-btn" onclick="playAgain()">Сыграть еще</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js"></script>
+    <script src="rock_paper_scissors.js"></script>
+</body>
+</html>

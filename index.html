@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игровой сайт</title>
+    <link rel="stylesheet" href="public/index.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="logo">Игровой сайт</div>
+        <nav>
+            <a href="/index.html">Главная</a>
+            <a href="/public/games/games_page.html">Игры</a>
+            <a href="#">Рейтинг</a>
+            <a href="#">Вход</a>
+        </nav>
+        <div class="user-info">
+            <span id="username">Имя пользователя</span>
+            <span id="coin-count">0 монет</span>
+        </div>
+    </header>
+    
+    <!-- Блок регистрации и входа -->
+    <div class="login-block">
+        <form id="loginForm">
+            <input type="text" name="username" placeholder="Логин" required>
+            <input type="password" name="password" placeholder="Пароль" required>
+            <input type="submit" value="Войти">
+        </form>
+        <a href="/registration/registration.html">Зарегистрироваться</a>
+    </div>
+
+    <!-- Основной контент сайта -->
+    <div class="slots">
+        <div class="slot-machine" id="reel1"><img src="public/images/banana.png" alt=""> <img src="public/images/bomb.png" alt=""><img src="public/images/cherry.png" alt=""></div>
+        <div class="slot-machine" id="reel2"><img src="public/images/banana.png" alt=""> <img src="public/images/bomb.png" alt=""><img src="public/images/cherry.png" alt=""></div>
+        <div class="slot-machine" id="reel3"><img src="public/images/banana.png" alt=""> <img src="public/images/bomb.png" alt=""><img src="public/images/cherry.png" alt=""></div>
+        <button id="spinButton">Spin</button>
+    </div>
+    
+    <!-- Здесь будет содержимое основного контента -->
+
+    <!-- Подвал сайта -->
+    <footer>
+        <div>Ссылки на социальные сети: <a href="#">Facebook</a>, <a href="#">Twitter</a>, <a href="#">Instagram</a></div>
+        <div>Контактная информация: example@mail.com</div>
+        <div>© 2024 Игровой сайт. Все права защищены.</div>
+    </footer>
+    <script src="public/index.js"></script>
+</body>
+</html>

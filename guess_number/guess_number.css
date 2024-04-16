@@ -1,0 +1,140 @@
+/* Общие стили для контейнера */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Стили для раздела с игровым полем */
+.game {
+    margin-bottom: 20px;
+}
+
+/* Стили для раздела с результатом */
+.result {
+    font-size: 18px;
+}
+
+/* Стили для кнопки "Играть" */
+#play-btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#play-btn:hover {
+    background-color: #0056b3; /* Цвет фона кнопки при наведении */
+}
+
+/* Стили для сообщения о начале игры */
+#game-start-message {
+    font-size: 18px;
+    font-weight: bold;
+    color: blue; /* Цвет текста сообщения */
+}
+
+/* Стили для сообщения о результате */
+#result-text {
+    font-weight: bold;
+    color: red; /* Цвет текста сообщения */
+}
+
+/* Стили для выбора ставки */
+.bet-options {
+    margin-bottom: 20px;
+}
+
+.bet-options label {
+    margin-right: 15px;
+}
+
+.bet-options input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Стили для кнопки "Сыграть еще" */
+#play-again-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#play-again-btn:hover {
+    background-color: #0056b3; /* Цвет фона кнопки при наведении */
+}
+
+/* Стили для заголовка */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Стили для ввода числа */
+#guess {
+    padding: 8px;
+    border: 1px solid #ccc; /* Цвет рамки */
+    border-radius: 5px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* Стили для кнопки "Угадать" */
+#submit-guess-btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Цвет фона кнопки */
+    color: #fff; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-guess-btn:hover {
+    background-color: #0056b3; /* Цвет фона кнопки при наведении */
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* Белый цвет */
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008000; /* Зеленый цвет */
+    color: #fff; /* Белый цвет */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+nav a:hover {
+    background-color: #006400; /* Темно-зеленый цвет при наведении */
+}
+.user-info {
+    margin-right: 20px;
+}
+
+#username {
+    font-weight: bold;
+}
+
+#coin-count {
+    margin-left: 10px;
+}

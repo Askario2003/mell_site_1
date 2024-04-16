@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* Белый цвет */
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #008000; /* Зеленый цвет */
+    color: #fff; /* Белый цвет */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+nav a:hover {
+    background-color: #006400; /* Темно-зеленый цвет при наведении */
+}
+
+.games-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Расстояние между карточками */
+}
+
+.game-card {
+    width: 300px; /* Ширина карточки */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.game-card img {
+    width: 100px; /* Ширина изображения */
+    height: 100px; /* Высота изображения */
+    margin-bottom: 10px;
+}
+
+.game-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.game-card p {
+    margin-bottom: 10px;
+}
+
+.play-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.play-btn:hover {
+    background-color: #0056b3;
+}
